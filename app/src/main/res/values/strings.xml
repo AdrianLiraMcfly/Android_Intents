@@ -5,4 +5,11 @@
     <string name="segunda">Segunda Pantalla</string>
     <string name="intE">Intents Explicitos</string>
     <string name="intI">Intents Implicitos</string>
+    <string name="btn1">Navegador</string>
+    <string name="btn2">Google maps</string>
+    <string name="btn3">Calculadora</string>
+    <string name="btn4">Notas</string>
+
+
+
 </resources>
