@@ -22,6 +22,10 @@ public class MainActivity2 extends AppCompatActivity {
         Button btng = findViewById( R.id.btng );
         Button btnc = findViewById( R.id.btnc );
         Button btnno = findViewById( R.id.btnn );
+        Button btn5 = findViewById( R.id.btn5 );
+        Button btn6 = findViewById( R.id.btn6 );
+        Button btn7 = findViewById( R.id.btn7 );
+        Button btn8 = findViewById( R.id.btn8 );
 
         btnn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,20 +76,12 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-            btnn.setOnClickListener(new View.OnClickListener() {
+            btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent contact = new Intent( Intent.ACTION_MAIN );
-                contact.setData(android.provider.ContactsContract.Contacts.CONTENT_URI);
+                Intent act3 = new Intent( MainActivity2.this, MainActivity3.class );
+                startActivity( act3 );
 
-                PackageManager pm = getPackageManager();
-                ResolveInfo ri = pm.resolveActivity(contact, PackageManager.MATCH_DEFAULT_ONLY);
-
-                if( ri != null ) {
-                    startActivity(contact);
-                } else {
-                    Toast.makeText(getApplicationContext(), "No fue posible realizar la opcion", Toast.LENGTH_SHORT).show();
-                }
             }
         });
     }
