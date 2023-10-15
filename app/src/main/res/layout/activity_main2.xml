@@ -75,34 +75,37 @@
             android:layout_centerInParent="true"
             android:layout_below="@+id/btnno"
             android:id="@+id/txt3"/>
+
         <Button
+            android:id="@+id/btn5"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txt3"
             android:layout_centerInParent="true"
-            android:text="@string/btn5"
-            android:id="@+id/btn5"
-            />
+            android:text="@string/btn5" />
+
         <Button
+            android:id="@+id/btn6"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btn5"
             android:layout_centerInParent="true"
-            android:text="@string/btn6"
-            android:id="@+id/btn6"/>
+            android:text="@string/btn6" />
+
         <Button
+            android:id="@+id/btn7"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btn6"
             android:layout_centerInParent="true"
-            android:text="@string/btn7"
-            android:id="@+id/btn7"/>
+            android:text="@string/btn7" />
+
         <Button
+            android:id="@+id/btn8"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btn7"
             android:layout_centerInParent="true"
-            android:text="@string/btn8"
-            android:id="@+id/btn8"/>
+            android:text="@string/btn8" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
